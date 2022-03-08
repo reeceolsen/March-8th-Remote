@@ -7,5 +7,6 @@
 
 import Foundation
 func evenNumbers(numbers: [Int]) -> [Int] {
-    return numbers.filter { $0 % 2 != 0 }
+    return numbers.filter { $0 % 2 == 0 }
 }
+

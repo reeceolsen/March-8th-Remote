@@ -23,6 +23,10 @@ class TDD_DirectoryTests: XCTestCase {
         XCTAssert(person.name == "tod")
     }
     
+    func test_if_even_numbers() {
+        let numbersInArray = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+        XCTAssert(evenNumbers(numbers: numbersInArray) == [2, 4, 6, 8, 10])
+    }
     func test_person_init_setAsDifferentParameters() {
         let person = Person(name: "Sally")
         XCTAssert(person.name == "Sally")
