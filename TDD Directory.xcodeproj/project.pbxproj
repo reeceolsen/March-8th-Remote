@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2B30AA7D27D7B55D00E00F91 /* functions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B30AA7C27D7B55D00E00F91 /* functions.swift */; };
 		C9AD151E27D65EAA0088FA2C /* TDD_DirectoryApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9AD151D27D65EAA0088FA2C /* TDD_DirectoryApp.swift */; };
 		C9AD152027D65EAA0088FA2C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9AD151F27D65EAA0088FA2C /* ContentView.swift */; };
 		C9AD152227D65EAC0088FA2C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C9AD152127D65EAC0088FA2C /* Assets.xcassets */; };
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2B30AA7C27D7B55D00E00F91 /* functions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = functions.swift; sourceTree = "<group>"; };
 		C9AD151A27D65EAA0088FA2C /* TDD Directory.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TDD Directory.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9AD151D27D65EAA0088FA2C /* TDD_DirectoryApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TDD_DirectoryApp.swift; sourceTree = "<group>"; };
 		C9AD151F27D65EAA0088FA2C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -99,6 +101,7 @@
 				C9AD151D27D65EAA0088FA2C /* TDD_DirectoryApp.swift */,
 				C9AD151F27D65EAA0088FA2C /* ContentView.swift */,
 				C9AD154727D65EFA0088FA2C /* Person.swift */,
+				2B30AA7C27D7B55D00E00F91 /* functions.swift */,
 				C9AD152127D65EAC0088FA2C /* Assets.xcassets */,
 				C9AD152327D65EAC0088FA2C /* Preview Content */,
 			);
@@ -263,6 +266,7 @@
 				C9AD154827D65EFA0088FA2C /* Person.swift in Sources */,
 				C9AD152027D65EAA0088FA2C /* ContentView.swift in Sources */,
 				C9AD151E27D65EAA0088FA2C /* TDD_DirectoryApp.swift in Sources */,
+				2B30AA7D27D7B55D00E00F91 /* functions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
