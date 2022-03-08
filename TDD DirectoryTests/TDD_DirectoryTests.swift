@@ -23,16 +23,19 @@ class TDD_DirectoryTests: XCTestCase {
         XCTAssert(person.name == "tod")
     }
     
-    func test_person_init_setAsDifferentParameters() {
-        let person = Person(name: "Sally")
-        XCTAssert(person.name == "Sally")
+    func test_if_Numbers_even() {
+        
     }
-    
-    func test_person_modifiedName() {
-        var person = Person(name: "Garry")
-        person.name = "Jane"
-        XCTAssert(person.name == "Jane")
-    }
+//    func test_person_init_setAsDifferentParameters() {
+//        let person = Person(name: "Sally")
+//        XCTAssert(person.name == "Sally")
+//    }
+//
+//    func test_person_modifiedName() {
+//        var person = Person(name: "Garry")
+//        person.name = "Jane"
+//        XCTAssert(person.name == "Jane")
+//    }
 
 //    func nameIsEqualToThatName() throws {
 //        let person1 = Person(name: "Matt", age: 1)
